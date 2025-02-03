@@ -49,7 +49,7 @@ X = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
 y = np.array([[0], [0], [0], [1]])  
 
 
-mlp = MultiLayerPerceptron(input_size=2, hidden_size=4, output_size=1)
+mlp = MultiLayerPerceptron(input_size=2, hidden_size=1, output_size=1)
 mlp.train(X, y, epochs=10000)
 
 
