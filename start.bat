@@ -6,6 +6,9 @@ echo Venv activate...
 call venv\Scripts\activate.bat
 
 echo Install numpy...
+pip install numpy
+
+echo Install matplotlib...
 pip install matplotlib
 
 echo Installed complete. Check version numpy
